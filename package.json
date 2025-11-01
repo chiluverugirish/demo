@@ -1,0 +1,26 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+  "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiluverugirish/demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiluverugirish/demo/issues"
+  },
+  "homepage": "https://github.com/chiluverugirish/demo#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "jest": "^30.2.0"
+  }
+}
